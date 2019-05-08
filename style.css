@@ -195,9 +195,15 @@ div.contact{
 table.contact{
 	text-align: left;
 	border-radius: 10px;
+	color: #825d1c;
+	border-color: #c99945;
+}
+h1{
+	color: #825d1c;
 }
 .table{
 	border-radius: 5px;
+	color: #645130;
 }
 td{
 	padding: 5px;
@@ -211,11 +217,13 @@ input.submit,input.reset{
 	background-color: #ffffff;
 	color: #694b16;
 	border-radius: 15px;
+	border-color: #d5b172;
 }
 input.submit:hover,input.reset:hover{
 	background-color: #d1c285;
 	color: black;
 	-webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+	border-color: white;
 }
 /*聯絡資訊結束*/
 /*footer開始*/
