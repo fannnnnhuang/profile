@@ -165,15 +165,12 @@ div.picture{
 	column-rule: silver solid 1px;
 }
 img.record{
-	width: 320px;
+	width: 45%;
 	padding: 10px;
 	opacity: 100%;
 }
 img.record:hover{
 	filter: opacity(70%);
-}
-div.picture-left{
-	margin-left: 26%;
 }
 /*生活紀錄結束*/
 
