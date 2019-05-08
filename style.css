@@ -1,0 +1,242 @@
+body{
+	background-color: #cf9e9e;
+	font-family: 微軟正黑體;
+}
+/*header開始*/
+img.logo{
+	float: left;
+}
+img.logo:hover{
+	-webkit-filter:drop-shadow(5px 5px 5px #333);
+}
+header{
+	background-color: #b26d6c;
+	color: #b0b0b0;
+	overflow: auto;
+	z-index: 100;
+	position: fixed;
+	width: 100%;
+}
+header:hover{
+	-webkit-filter:drop-shadow(5px 5px 5px #333);
+}
+div.nav{
+	text-align: left;
+	line-height: 150px;
+}
+a.active{
+	padding: 30px;
+	color: #ffffff;
+	text-shadow: 3px 4px 5px #373030;
+	font-size: 20px;
+	font-family: 微軟正黑體;
+}
+a.active:hover{
+	background-color: #cfa6a5;
+	border-radius: 20px;
+	color:#4a4a4a;
+	text-shadow: 3px 4px 5px #e69b93;
+}
+/*header結束*/
+/*banner開始*/
+div.bannerImg{
+	height: 1000px;
+	background-image: url(./images/banner1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+p.banner{
+	width: 100%;
+	text-align: center;
+	font-size: 30px;
+	position: absolute;
+	top:200px;
+	z-index: 1;
+	color: #403030;
+	font-family: monospace;
+}
+img.nav{
+	width: 35px;
+	padding-right: 5px;
+	opacity:0.75;
+}
+/*banner結束*/
+/*關於我開始*/
+div.aboutImg{
+	height: 800px;
+	background-image: url(./images/1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+div.bodyArea,div.experience{
+	color: white;
+	background-color: #808080b5;
+	overflow: auto;
+	height: 700px;
+	width: 50%;
+	margin:0px auto;
+	transition: all 2s ease-out;
+}
+div.img{
+	height:350px;
+	overflow:hidden;
+	text-align: center;
+}
+img.about{
+	margin:0px auto;
+	padding: 35px;
+	height: 350px;
+	transform:scale(1,1);
+	transition: all 1s ease-out;
+}
+img.about:hover{
+	transform:scale(1.2,1.2);
+}
+div.about,div.experience{
+	font-size: 30px;
+	text-shadow: 3px 4px 5px #373030;
+}
+h1.title{
+	background-color: #cf9e9e;
+	color: white;
+	text-shadow: 3px 4px 5px #373030;
+}
+h1.title:hover{
+	color:#844039;
+	text-shadow: 3px 4px 5px #ffffff;
+}
+h1.title1{
+	background-color: #cf9e9e;
+	color:#844039;
+	text-shadow: 3px 4px 5px #ffffff;
+}
+h1.title1:hover{
+	color: white;
+	text-shadow: 3px 4px 5px #373030;
+	
+}
+/*關於我結束*/
+/*社團工作經驗開始*/
+div.experienceImg{
+	height: 800px;
+	background-image: url(./images/about1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+div.club,div.work{
+	padding: 30px;
+	overflow:hidden;
+}
+img.club{
+	width: 350px;
+	transform:scale(1,1);
+	transition: all 1s ease-out;
+}
+div.clubImg{
+	float: left;
+}
+img.work{
+	width: 350px;
+	float: right;
+	transform:scale(1,1);
+	transition: all 1s ease-out;
+}
+img.club:hover,img.work:hover{
+	transform:scale(1.2,1.2);
+}
+/*社團工作經驗結束*/
+/*生活記錄開始*/
+div.record{
+	color: white;
+	background-color: #ffffffcc;
+	overflow: auto;
+	height: 700px;
+	width: 100%;
+	margin:0px auto;
+}
+div.recordImg{
+	height: 800px;
+	background-image: url(./images/record6.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+div.picture{
+	columns: 2; 
+	column-rule: silver solid 1px;
+}
+img.record{
+	width: 320px;
+	padding: 10px;
+	opacity: 100%;
+}
+img.record:hover{
+	filter: opacity(70%);
+}
+div.picture-left{
+	margin-left: 26%;
+}
+/*生活紀錄結束*/
+
+/*聯絡資訊開始*/
+div.contactImg{
+	height: 800px;
+	background-image: url(./images/about.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+div.contact{
+	color: gray;
+	background-color: white;
+	overflow: auto;
+	height: 600px;
+	width: 50%;
+	margin:0px auto;
+	opacity:0.9;
+	text-align: center;
+	padding: 50px;
+}
+table.contact{
+}
+/*聯絡資訊結束*/
+/*footer開始*/
+div.footer{
+	background-color: black;
+	margin:0px auto;
+	color: white;
+	padding: 50px;
+	opacity:0.9;
+	text-align: center;
+	
+}
+img.footer:hover{
+	-webkit-filter:drop-shadow(5px 5px 5px gray);
+}
+img.footer{
+	width: 50px;
+}
+/*footer結束*/
+/*回頂部*/
+img.top{
+	width: 50px;
+	position: fixed;
+	bottom: 5px;
+	right: 20px;
+}
+div.sidebar{
+	width:60px;
+	background-color: #f7d996b8;
+	position: fixed;
+	bottom: 150px;
+	right: 0px;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+}
+img.sidebar{
+	width: 50px;
+	transform:scale(1,1);
+	transition: all 0.5s ease-out;
+	padding: 5px;
+}
+img.sidebar:hover{
+	transform:scale(1.2,1.2);
+}
