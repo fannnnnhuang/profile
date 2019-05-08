@@ -55,32 +55,6 @@ p.banner{
 	color: #403030;
 	font-family: monospace;
 }
-@keyframes bounce {
-  from,
-  20%,
-  53%,
-  80%,
-  to {
-    animation-timing-function:cubic-bezier(0.215,0.61,0.355,1);
-    transform: translate3d(0,0,0);
-  }
-  40%,
-  43% {
-    animation-timing-function: cubic-bezier(0.755,0.05,0.855,0.06);
-    transform: translate3d(0,-30px,0);
-  }
-  70% {
-    animation-timing-function: cubic-bezier(0.755,0.05,0.855,0.06);
-    transform: translate3d(0,-15px,0);
-  }
-  90% {
-    transform: translate3d(0,-4px,0);
-  }
-}
-.bounce {
-  animation-name: bounce;
-  transform-origin: center bottom;
-}
 img.nav{
 	width: 35px;
 	padding-right: 5px;
@@ -170,30 +144,6 @@ img.work{
 img.club:hover,img.work:hover{
 	transform:scale(1.2,1.2);
 }
-@keyframes headShake {
-  0% {
-    transform:translateX(0);
-  }
-  6.5% {
-    transform:translateX(-6px) rotateY(-9deg);
-  }
-  18.5% {
-    transform:translateX(5px) rotateY(7deg);
-  }
-  31.5% {
-    transform:translateX(-3px) rotateY(-5deg);
-  }
-  43.5% {
-    transform:translateX(2px) rotateY(3deg);
-  }
-  50% {
-    transform:translateX(0);
-  }
-}
-.headShake {
-  animation-timing-function: ease-in-out;
-  animation-name: headShake;
-}
 /*社團工作經驗結束*/
 /*生活記錄開始*/
 div.record{
@@ -221,31 +171,6 @@ img.record{
 }
 img.record:hover{
 	filter: opacity(70%);
-}
-@keyframes swing {
-  20% {
-    transform:rotate3d(0,0,1,15deg);
-  }
-
-  40% {
-    transform:rotate3d(0,0,1,-10deg);
-  }
-
-  60% {
-    transform:rotate3d(0,0,1,5deg);
-  }
-
-  80% {
-    transform:rotate3d(0,0,1,-5deg);
-  }
-
-  to {
-    transform:rotate3d(0,0,1,0deg);
-  }
-}
-.swing {
-  transform-origin: top center;
-  animation-name: swing;
 }
 /*生活紀錄結束*/
 
@@ -299,19 +224,6 @@ input.submit:hover,input.reset:hover{
 	color: black;
 	-webkit-box-shadow: inset 0px 1px 4px #ECECEC;
 	border-color: white;
-}
-@keyframes fadeInDown {
-  from {
-    opacity:0;
-    transform:translate3d(0,-100%,0);
-  }
-  to {
-    opacity:1;
-    transform:translate3d(0,0, 0);
-  }
-}
-.fadeInDown {
-  animation-name:fadeInDown;
 }
 /*聯絡資訊結束*/
 /*footer開始*/
