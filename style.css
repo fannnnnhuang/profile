@@ -70,7 +70,7 @@ div.aboutImg{
 }
 div.bodyArea,div.experience{
 	color: white;
-	background-color: #808080b5;
+	background-color: rgba(128, 128, 128,0.7);
 	overflow: auto;
 	height: 700px;
 	width: 50%;
@@ -148,7 +148,7 @@ img.club:hover,img.work:hover{
 /*生活記錄開始*/
 div.record{
 	color: white;
-	background-color: #ffffffcc;
+	background-color: rgba(255,255,255,0.8);
 	overflow: auto;
 	height: 700px;
 	width: 100%;
@@ -221,7 +221,7 @@ img.top{
 }
 div.sidebar{
 	width:60px;
-	background-color: #f7d996b8;
+	background-color: rgba(247, 217, 150,0.8);
 	position: fixed;
 	bottom: 150px;
 	right: 0px;
