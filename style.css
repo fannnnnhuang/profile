@@ -193,6 +193,29 @@ div.contact{
 	padding: 50px;
 }
 table.contact{
+	text-align: left;
+	border-radius: 10px;
+}
+.table{
+	border-radius: 5px;
+}
+td{
+	padding: 5px;
+}
+input.submit,input.reset{
+	padding-top:8px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 8px;
+	margin: 10px;
+	background-color: #ffffff;
+	color: #694b16;
+	border-radius: 15px;
+}
+input.submit:hover,input.reset:hover{
+	background-color: #d1c285;
+	color: black;
+	-webkit-box-shadow: inset 0px 1px 4px #ECECEC;
 }
 /*聯絡資訊結束*/
 /*footer開始*/
@@ -219,6 +242,7 @@ img.top{
 	bottom: 5px;
 	right: 20px;
 }
+/*sidebar*/
 div.sidebar{
 	width:60px;
 	background-color: rgba(247, 217, 150,0.8);
